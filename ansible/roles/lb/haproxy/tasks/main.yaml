@@ -1,0 +1,5 @@
+---
+- name: Install HAProxy
+  apt: 
+    name: ['haproxy']
+    state: present
